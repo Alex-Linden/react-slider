@@ -9,6 +9,13 @@ body {
     padding: 2em;
 }
 
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: none;
+    cursor: pointer;
+}
+
 .range-slider {
     display: flex;
     justify-content: center;
@@ -36,7 +43,7 @@ body {
     height: 0.5em;
     outline: none;
     border-radius: 3px;
-    background: #1f1f1f;
+    background: none;
     box-shadow:
         inset 3px 3px 6px #000,
         1px 1px 1px #909090;
@@ -51,12 +58,12 @@ body {
 }
 
 .progress {
-    width: 0;
+    /* width: 0; */
     height: 0.4em;
     border-radius: 3px;
-    background: linear-gradient (90deg,
-            #55e0ff,
-            #3193fc);
+    background: linear-gradient(90deg,
+    #55e0ff,
+    #3193fc);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
