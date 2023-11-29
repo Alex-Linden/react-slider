@@ -24,6 +24,7 @@ input[type="range"] {
     gap: 1em;
     color: #fff;
     margin: 4em auto;
+
 }
 
 .slider-container {
@@ -48,6 +49,7 @@ input[type="range"] {
         inset 3px 3px 6px #000,
         1px 1px 1px #909090;
     cursor: pointer;
+
 }
 
 .slider::-webkit-slider-thumb {

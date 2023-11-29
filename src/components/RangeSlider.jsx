@@ -27,13 +27,13 @@ function RangeSlider({ min, max, value, step }) {
             <div className="range-slider">
                 <div className="slider-values">
                     <small>{min}</small>
-                    <input
+                    {/* <input
                         type="number"
                         value={inputValue}
                         min={min} max={max}
                         className="number-input"
                         step={step}
-                    />
+                    /> */}
                     <small>{max}</small>
                 </div>
                 <div className="slider-container">
