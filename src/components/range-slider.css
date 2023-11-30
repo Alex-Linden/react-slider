@@ -60,7 +60,7 @@ input[type="range"] {
 }
 
 .progress {
-    /* width: 0; */
+    width: 0;
     height: 0.4em;
     border-radius: 3px;
     background: linear-gradient(90deg,
